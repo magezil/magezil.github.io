@@ -81,6 +81,25 @@ li{
   margin-left: 1em;
 }
 
+.buttons {
+    position: relative;
+    top: 10%;
+} 
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    color: initial;
+    display: inline;
+}
+
 .content {
   margin: 0 auto;
   padding: 20px;
