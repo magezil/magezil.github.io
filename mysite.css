@@ -1,0 +1,88 @@
+* {
+  /* Borders for website design - take out when make public
+  border: 1px solid rgba(0, 0, 0, 0.3);*/
+}
+
+body {
+  background: #6E0505;
+  background: rgba(110, 5, 5, .2);
+  color: #000033;
+  margin: 0;
+  padding: 0;
+}
+
+/* */
+#cover {
+  background: url("https://i.imgur.com/sJeNhKi.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+  position: relative;
+  top: -10px;
+  width: 100%;
+}
+/*
+#cover:before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: -50%;
+    z-index: -1;
+    background: url(https://i.imgur.com/dmUscQH.jpg) no-repeat center center;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}*/
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 25%;
+  width: 80%;
+} 
+
+h1, h2, p, ul {
+  background: #FFF;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+h1 {
+  font-family: 'Domine', serif;
+ /* color: #1E013A; */
+/*  color: #6E0505;*/
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 20%;
+  word-break: break-word
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  margin: 10px 30%;
+}
+
+p, ul {
+  font-size: 16px; 
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+li{
+  margin-left: 1em;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+}
