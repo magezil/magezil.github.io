@@ -81,8 +81,32 @@ li{
   margin-left: 1em;
 }
 
+#buttons {
+    position: relative;
+    top: 10px;
+} 
+
+a.button {
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    background: Skyblue;
+    color: initial;
+    display: inline;
+}
+
+a.button:hover {
+    color: Blue;
+}
+
 .content {
   margin: 0 auto;
   padding: 20px;
   width: 80%;
+}
+
+#other {
+    display: inline-block;
 }
