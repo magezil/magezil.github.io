@@ -107,6 +107,6 @@ a.button:hover {
   width: 80%;
 }
 
-#other {
+.icon img {
     display: inline-block;
 }
