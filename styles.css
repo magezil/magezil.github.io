@@ -1,0 +1,73 @@
+body, main {
+    display: flex;
+}
+body {
+    flex-direction: column;
+    background-color: #fee2ff;
+}
+
+main {
+    flex-direction: row;
+    flex: auto;
+}
+
+article, aside {
+    overflow-y: auto;
+}
+
+article {
+    flex: 2;
+    background-color: #FFF;
+}
+
+aside {
+    flex: 1;
+}
+
+header a:hover {
+    color: #F00;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+a:hover {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+img {
+    width: 90%;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: #F00;
+}
+
+article p {
+    width: 90%;
+}
+
+.medium{
+    width: 45%;
+    border-radius: 50%;
+}
+
+#split {
+    float: left;
+}
+
+iframe {
+    frameborder: "0";
+}
+
+#smart_thumbnail {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#icon {
+    width: 200px;
+    border-radius: 0px;
+}
