@@ -7,7 +7,7 @@
     <link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <script src="behavior.js"></script>
-    <!--  <script src="https://www.w3schools.com/lib/w3.js"></script> -->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <!-- Original stuff    <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Domine|Roboto"/> -->
   </head>
@@ -28,12 +28,9 @@
         <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
         <script type="IN/Share" data-url="http://92.243.6.35/"></script>
       </div>
-      <!-- Refactor header 
-      <script>
-	w3.includeHTML();
-      </script>
-      <div w3-include-html="header.html"></div> -->
-      
+
+      <div w3-include-html="/header.html"></div>
+      <!--
       <ul>
         <li class="logo"><a href="/">&#9775;</a></li>
         <li><a href="/">home</a></li>
@@ -43,6 +40,7 @@
         <li><a href="/tweets.html">tweets</a></li>
         <li><a href="/about.html">about</a></li>
       </ul>
+-->
     </header>
     <main>
       <article>
@@ -106,7 +104,10 @@
       </aside>
    </main>
     <footer>
-     <!-- Refactor footer  <div w3-include-html="footer.html"></div> -->
-     <p>Made by <a href="https://twitter.com/@calamansi_mage" target="_blank">Liz Magalindan</a> for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.</p>
-   </footer>
+      <div w3-include-html="/footer.html"></div>
+    </footer>
+    <script>
+	w3.includeHTML();
+    </script>
+  </body> 
 </html>
