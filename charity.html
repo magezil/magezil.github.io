@@ -24,15 +24,7 @@
         <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
         <script type="IN/Share" data-url="http://92.243.6.35/charity.html"></script>
       </div>
-      <ul>
-        <li class="logo"><a href="/">&#9775;</a></li>
-        <li><a href="/">home</a></li>
-        <li><a href="/crochet.html">crochet</a></li>
-        <li><a href="/charity.html">charity</a></li>
-        <li><a href="/food.html">food</a></li>
-        <li><a href="/tweets.html">tweets</a></li>
-        <li><a href="/about.html">about</a></li>
-      </ul>
+      <div w3-include-html="/header.html"></div>
     </header>
     <main>
       <article>
@@ -76,9 +68,12 @@
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
       </aside>
-   </main>
-   <footer>
-     <p>Made by <a href="https://twitter.com/@calamansi_mage" target="_blank">Liz Magalindan</a> for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.</p>
-   </footer>
+    </main>
+    <footer>
+      <div w3-include-html="/footer.html"></div>
+    </footer>
+    <script>
+      w3.includeHTML();
+    </script>
   </body>
 </html>
