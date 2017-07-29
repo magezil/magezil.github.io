@@ -87,9 +87,16 @@ turn = 0
 # Play until you win
 while not win:
     print "Turn ", turn+1
-    guess_row = int(raw_input("Guess Row: "))
-    guess_col = int(raw_input("Guess Col: "))
-
+while True:
+    try:
+        guess_row = int(raw_input("Guess Row: "))
+        guess_col = int(raw_input("Guess Col: "))
+    except ValueError:
+        print "Please enter a number"
+        continue
+    else:
+        break
+    
     if (guess_row not in range(nrows)) or (guess_col not in range(ncols)):
         print "Oops, that's not even in the ocean."
     elif(board[guess_row][guess_col] != "O"):
