@@ -71,3 +71,7 @@ iframe {
     width: 200px;
     border-radius: 0px;
 }
+
+#fb-share-button {
+    padding: 10px;
+}
