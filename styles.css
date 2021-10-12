@@ -67,6 +67,14 @@ iframe {
     border-radius: 50%;
 }
 
+.small {
+    width: 200px;
+}
+
+.medium {
+    width: 250px;
+}
+
 #icon {
     width: 200px;
     border-radius: 0px;
